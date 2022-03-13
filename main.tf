@@ -2,8 +2,8 @@ terraform {
   backend "azurerm" {
       resource_group_name = "terraform-state-rg"
       storage_account_name = "terraformprodapac"
-      container_name = "test"
-      key = "terraform.test"
+      container_name = "testapp"
+      key = "terraform.testapp"
       access_key = "li+OI6DKp8rDHi1VueWthD7aJMvFQtSCfgqlZcUGzlxIbMT0uNlXTmB1P/tDXbN7xe55VPeIi2F+J8gRjsa3Ng=="
   }
 }
